@@ -1,0 +1,298 @@
+
+
+
+body, h1, h2, a, p,form, ul, li{
+  margin: 0px ;
+  padding:0px;
+}
+body{
+  font-family: "Nunito", Helvetica, Arial,Sans-Serif ;
+  color: #222222;
+  ;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none ;
+}
+img{
+  display:block ;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+/*superinfo-bg*/
+.superinfo-bg{
+  background: #122ab2;
+  color: red;
+}
+.superinfo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between ;
+  flex-wrap: wrap;
+  padding-top:10px;
+}
+.superinfo p,.superinfo a{
+  margin:0 10px 10px 10px;
+}
+.superinfo a{
+ color :white;
+}
+
+/*Menu*/
+.menu-bg{
+  background: #2c70ff;
+}
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding:15px 0;
+  display: flex ;
+  justify-content: space-between ;
+  align-items:center ;
+  
+}
+
+.menu a{
+  color: white;
+}
+.menu-logo a{
+  font-size: 2.55em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.menu-nav ul {
+  display:flex ;
+  flex-wrap: wrap ;
+}
+.menu-nav a{
+  font-size: 1.25em;
+  display:block ;
+  padding:10px ;
+}
+.menu-nav a:hover {
+  color : #122ab2;
+}
+
+/* Introdução */
+.introducao{
+  font-size:3em ;
+  line-height: 1;
+  max-width: 960px ;
+  margin:0 auto ;
+  padding:60px 10px ;
+}
+.sobre{
+  border-top: 2px solid #2c70ff;
+	border-bottom: 2px solid #2c70ff;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+
+align-items: flex-end;
+}
+.sobre-info{
+  flex: 1 1 300px;
+	margin: 0 10px;
+	
+}
+.sobre-info h1{
+font-size: 3em;
+margin-bottom: .5em;
+  
+}
+
+.sobre-info form{
+font-size: 1.25em;
+	line-height: 1.4;
+	margin-bottom: 1em;
+	color: #7c7c7c;
+	padding:10px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  
+  height: auto;
+}
+.sobre-img{
+  flex:1 1 300px;
+  margin: 0 10px;
+
+}
+
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+position: relative ;
+  bottom:10%;
+  left: 90%;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 0.5em;
+  
+  transform: translate(-50%, -50%);
+  box-shadow: 0 20px 50px rgba(0, 0, 0.5);
+  overflow: hidden;
+}
+.btn1{
+position: relative ;
+  bottom:10%;
+  left: 50%;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+border-radius: 0.5em;
+  
+  transform: translate(-50%, -50%);
+  box-shadow: 0 20px 50px rgba(0, 0, 0.5);
+  overflow: hidden;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  height: 50px;
+}
+
+
+/*footer*/
+img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.footer{
+  display:flex ;
+  background:#2c70ff ;
+  height:200px;
+  align-items: center ;
+  
+}
+
+.footer p {
+  flex:1;
+  text-align: center;
+  font-size:2.25em ;
+  color: #1222ab2;
+  
+}
+
+HTML CSS Result Skip Results Iframe
+body {
+  font: 150%/1.5 Arial;
+  text-align: center;
+  margin-top: 6em;
+}
+
+
+HTML CSS Result Skip Results Iframe
+body {
+  font: 150%/1.5 Arial;
+  text-align: center;
+  margin-top: 6em;
+}
+
+#pula {
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: -2s; 
+} 
+#pula1 {
+position: relative;
+  animation-name: example1;
+  animation-duration: 10s;
+  animation-delay: -5s; 
+  
+}
+
+#btn-cripto{
+position: relative;
+  animation-name: btncri;
+  animation-duration: 4s;  
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 1;
+}
+#btn-descripto{
+  position: relative;
+  animation-name: btncri1;
+  animation-duration: 4s;  
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 1;
+}
+#btn-copy{
+  position: relative;
+  animation-name: btncri1;
+  animation-duration: 4s;  
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 1;
+}
+.erro{
+  color:red;
+  font-weight: bold;
+}
+
+
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px
+  } 
+} 
+
+@keyframes example1{
+  0%   {;right:1000px; top:0px;}
+  25%  {right:200px; top:0px;}
+  50%  {; right:200px; top:200px;}
+  75%  {right:0px; top:200px;}
+  100% { right:0px; top:0px
+  } 
+} 
+
+@keyframes btncri {
+  from {bottom: 400px; background-color: yellow;}
+  to {bottom: 0px; background-color: blue;}
+}
+
+@keyframes btncri1{
+  from {top: 400px; background-color: green;}
+  to {top : 0px; background-color: blue;}
+}
+@keyframes btncri2{
+  from {left : 400px; background-color: orange;}
+  to {left : 0px; background-color: blue;}
+}
