@@ -20,5 +20,8 @@ Foram usadas na construção do projeto:<br>
 [JavaScript]<br>
 
 ## Resultado final GitPages
+![Screenshot](https://github.com/ifeslopes/CriptoOracleONE/blob/main/img/cripto.png)
+
+<img src="https://github.com/ifeslopes/CriptoOracleONE/blob/main/img/3.png" align="center" heigth="50" width="60">
 
 https://ifeslopes.github.io/CriptoOracleONE
